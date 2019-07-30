@@ -1,0 +1,363 @@
+body {
+	font-family: "comic Sans MS", Arial, sans-serif;
+	background-color: hsla(15, 30%, 92%, 0.829);
+}
+
+#banner {
+	box-sizing: border-box;
+	background-image: url(./images/7794969722_7778953072-un-terrain-de-foot-illustration.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px;
+	height: 270px;
+}
+
+#banner > div {
+	display: flex;
+}
+
+#banner-title {
+	background-color: #d091087d;
+	text-align: center;
+	color: white;
+	right: 5%;
+	height: 44px;
+	padding: 4px;
+	margin-top: -1px;
+}
+
+#logo {
+	width: 160px;
+	margin: 20px;
+}
+
+.halfwith {
+	width: 33%;
+}
+#page-name {
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	padding: 3px 0;
+	font-size: 20px;
+	width: 10%;
+	background-color: rgb(15, 41, 41);
+	color: #ececec;
+}
+#navbar {
+	align-self: center;
+	margin-left: 15px;
+}
+.container {
+	width: 80%;
+	background-color: aqua;
+}
+#navbar ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #560f36;
+}
+
+#navbar li {
+	float: left;
+	border-right: 3px solid #82c4ea;
+}
+
+#navbar li a.active {
+	background-color: white;
+	color: white;
+}
+
+#navbar li:last-child {
+	border-right: none;
+}
+
+#navbar a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+#navbar li a:hover:not(.active) {
+	background-color: #107d63;
+}
+
+.active {
+	background-color: #01080cfa;
+}
+#navbar.active {
+	background-color: brown;
+}
+#soccer1 {
+	position: absolute;
+	margin-left: 50%;
+}
+.content {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: auto;
+}
+.halfwidth {
+	width: 33%;
+}
+.content-text {
+	margin-left: 5px;
+	font-size: 17px;
+	align-content: center;
+}
+
+/* Style all font awesome icons */
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 50px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+	opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+	background: #3b5998;
+	color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+	background: #55acee;
+	color: white;
+}
+
+.textrules h3 {
+	margin-top: 10px;
+}
+
+.fields {
+	list-style-type: lower-alpha;
+}
+.infoselected {
+	list-style-type: square;
+}
+#allplay {
+	list-style-type: circle;
+}
+.areastyle {
+	background-color: #c8e6c9;
+}
+
+h2 {
+	font-family: sans-serif;
+	margin-left: 72px;
+}
+.gameday {
+	margin-left: 70px;
+}
+table {
+	width: 100%;
+	border-spacing: 0;
+	border-width: 0;
+}
+th {
+	text-decoration: underline;
+	width: 25%;
+	text-align: left;
+	padding: 5px;
+	background-color: #17c4eb47;
+}
+
+td {
+	padding: 5px;
+	width: 25%;
+	border-width: 0;
+	width: 25%;
+	text-align: left;
+}
+
+tr:nth-child(even) {
+	background-color: #e7987a61;
+}
+
+.location {
+	width: 100%;
+	border: 2px solid #ddd;
+}
+.location td {
+	border-bottom: 2px solid #66bb6a;
+	display: flex;
+	align-items: center;
+	width: 100%;
+}
+.margin-bottomschool td {
+	border-bottom: 1px solid black;
+}
+
+iframe {
+	width: 100%;
+	height: 100%;
+}
+.map {
+	display: flex;
+	justify-content: center;
+}
+
+.mapstyle {
+	padding: 10px;
+	height: 270px;
+}
+
+.margin-bottom {
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+
+.flexlocation {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background-color: #c8e6c9;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.regformstyle {
+	height: 63%;
+	background-color: #d1d4ce00;
+	padding: 10px;
+	color: #010a0a;
+	text-align: justify;
+	margin-left: 80px;
+	display: flex;
+}
+
+.fullwide {
+	width: 81%;
+	margin-bottom: 20px;
+}
+
+.flexy {
+	display: flex;
+}
+.bd {
+	margin-top: 15px;
+}
+.fullwide input {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.margin-bottom {
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+.bdate {
+	width: 250px;
+	margin-right: 20px;
+}
+.halfwide {
+	width: 100%;
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.halfwide > input {
+	width: 30%;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+input {
+	background-color: lemonchiffon;
+}
+
+.tablestyle {
+	width: 100%;
+}
+
+.rank {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+#permission {
+	text-decoration: underline;
+}
+footer {
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.subfooter {
+	display: flex;
+	justify-content: center;
+
+	margin-top: 20px;
+	width: 100%;
+}
+.subfooter input {
+	font-size: 20px;
+	margin-top: 25px;
+	color: darkred;
+	padding: 5 105 10px;
+	display: flex;
+	width: 100px;
+
+	justify-content: center;
+}
+.filling {
+	display: block;
+	overflow: hidden;
+}
+.filling > input {
+	width: 100%;
+}
+.floated {
+	float: left;
+}
+
+.column {
+	float: left;
+	width: 35%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+div.gallery {
+	margin: 5px;
+	border: 1px solid #ccc;
+	float: right;
+	width: 70px;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery img {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}

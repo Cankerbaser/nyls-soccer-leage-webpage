@@ -1,0 +1,24 @@
+.flexible-horizontal {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flexible-vertical {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.fullwidth {
+	width: 100%;
+}
+re .halfwidth {
+	width: 50%;
+}
+.evenspace {
+	justify-content: space-evenly;
+}
+.photo {
+	height: 200px;
+}
